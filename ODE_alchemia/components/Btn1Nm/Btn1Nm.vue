@@ -36,7 +36,8 @@ const handleClick = () => {
 .button-text {
   /*color: #fff;*/
   font-size: 16px;
-  position: absolute;
+  /*position: absolute;*/
+  align-self: center;
 }
 
 

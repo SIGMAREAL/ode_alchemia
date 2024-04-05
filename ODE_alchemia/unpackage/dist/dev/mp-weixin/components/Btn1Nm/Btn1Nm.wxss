@@ -3,7 +3,8 @@
 .button-text.data-v-fc8da202 {
   /*color: #fff;*/
   font-size: 16px;
-  position: absolute;
+  /*position: absolute;*/
+  align-self: center;
 }
 .button.data-v-fc8da202 {
   width: 60vw;

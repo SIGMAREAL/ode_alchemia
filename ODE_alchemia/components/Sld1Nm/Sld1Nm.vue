@@ -39,7 +39,7 @@
 	.toggle {
 		isolation: isolate;
 		position: relative;
-		height: 5vh;
+		height: 7vh;
 		width: 75vw;
 		border-radius: 15px;
 		overflow: hidden;

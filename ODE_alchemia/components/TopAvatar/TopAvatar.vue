@@ -1,11 +1,11 @@
 <template>
 
-		<div class="profileImage">
-		<!--image src="../../static/logo.png"></image-->
+	<div class="profileImage">
+		<image src="../../static/微信图片_20240405191504.jpg" class="image"></image>
 
-		</div>
+	</div>
 
-	
+
 </template>
 
 <script>
@@ -20,13 +20,21 @@
 </script>
 
 <style>
-
 	.profileImage {
 		background: linear-gradient(to right, rgb(54, 54, 54), rgb(32, 32, 32));
 		margin-top: 3vh;
+		margin-bottom: 1vh;
 		width: 50px;
 		height: 50px;
 		border-radius: 50%;
 		box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+
+	}
+
+	.image {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+
 	}
 </style>

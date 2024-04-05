@@ -1,8 +1,9 @@
 
-.space.data-v-882ca6e2{
-		height: 5vh; /* 设置空间的高度 */
+.space.data-v-882ca6e2 {
+		height: 10vh;
+		/* 设置空间的高度 */
 }
-.image.data-v-882ca6e2{
+.image.data-v-882ca6e2 {
 		z-index: -1;
 }
 .card.data-v-882ca6e2 {
@@ -18,4 +19,21 @@
 		background-color: rgba(255, 255, 255, 0.074);
 		border: 1px solid rgba(255, 255, 255, 0.222);
 		z-index: -2;
+}
+
+	/* 样式可以根据自己的需求进行调整 */
+.flex-container.data-v-882ca6e2 {
+		display: flex;
+		flex-direction: column;
+		/* 纵向布局 */
+		justify-content: space-between;
+		/* 垂直方向上平均分布 */
+		height: 70vh;
+		/* 设置容器高度 */
+}
+.flex-item.data-v-882ca6e2 {
+
+	
+		text-align: center;
+		padding: 10px;
 }
