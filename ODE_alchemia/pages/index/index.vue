@@ -5,23 +5,36 @@
 			<text class="title">{{title}}</text>
 		</view>
 		<view>qq</view>
+		<Btn1Norm text="Click me" :onClick="handleButtonClick" />
 	</view>
 </template>
 
 <script>
-	export default {
-		data() {
-			return {
-				title: 'Hello'
-			}
-		},
-		onLoad() {
+// 导入 Btn1Norm 组件
+import Btn1Norm from '@/components/button/Btn1Norm.vue'; // 请根据你的实际路径修改
 
-		},
-		methods: {
-
-		}
-	}
+export default {
+  data() {
+    return {
+      title: 'Hello'
+    }
+  },
+  onLoad() {
+    // 在页面加载时执行的逻辑
+  },
+  methods: {
+    // 点击事件处理函数
+    handleButtonClick() {
+      uni.showToast({
+        title: 'Button clicked!',
+        icon: 'none'
+      });
+    }
+  },
+  components: {
+    Btn1Norm // 注册 Btn1Norm 组件
+  }
+}
 </script>
 
 <style>
