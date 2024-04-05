@@ -9,5 +9,10 @@
     "backgroundColor": "#F8F8F8",
     "navigationStyle": "custom"
   },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "1"
+    }
+  },
   "usingComponents": {}
 }

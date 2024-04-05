@@ -1,5 +1,8 @@
 
-.card {
+.image.data-v-882ca6e2{
+		z-index: -1;
+}
+.card.data-v-882ca6e2 {
 		width: 82vw;
 		height: 70vh;
 		border-radius: 30px;

@@ -1,1 +1,0 @@
-<view class="button data-v-c22a473c" bindtap="{{b}}"><text class="button-text data-v-c22a473c">{{a}}</text></view>

@@ -1,7 +1,8 @@
 {
   "navigationBarTitleText": "uni-app",
   "usingComponents": {
+    "top-bar": "../../components/TopBar/TopBar",
     "card2-nm": "../../components/Card2Nm/Card2Nm",
-    "btn1-nm": "../../components/Btn1Nm/Btn1Nm"
+    "btm-bar": "../../components/BtmBar/BtmBar"
   }
 }

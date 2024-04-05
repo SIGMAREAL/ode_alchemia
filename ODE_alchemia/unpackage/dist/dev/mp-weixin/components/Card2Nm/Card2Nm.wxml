@@ -1,1 +1,1 @@
-<view class="card"><text>ode</text></view>
+<view class="card data-v-882ca6e2"><text class="data-v-882ca6e2">ode</text><btn1-nm wx:if="{{a}}" class="data-v-882ca6e2" u-i="882ca6e2-0" bind:__l="__l" u-p="{{a}}"></btn1-nm><sld1-nm class="data-v-882ca6e2" u-i="882ca6e2-1" bind:__l="__l"></sld1-nm></view>

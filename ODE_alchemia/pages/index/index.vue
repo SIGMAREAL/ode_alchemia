@@ -1,21 +1,20 @@
 <template>
-	<view class="content">
 
-		<div class="space"></div>
 
-		<Card2Nm></Card2Nm>>
 
-		<text>ode</text>
-		<Btn1Nm text="Click me" :onClick="handleButtonClick"></Btn1Nm>
+	<div class="container">
 
-		<image src="/static/1.svg"></image>
-		<!--image class="logo" src="/static/logo.png"></image-->
-		<view class="text-area">
-			<text class="title">{{title}}</text>
-		</view>
-		<view>qq</view>
+		<header class="topbar">
+			<TopBar></TopBar>
+		</header>
+		<main class="content">
+			<Card2Nm></Card2Nm>
+		</main>
+		<footer class="bottombar">
+			<BtmBar></BtmBar>
+		</footer>
+	</div>
 
-	</view>
 </template>
 
 <script>
@@ -43,35 +42,43 @@
 	};
 </script>
 
-<style>
-	.space {
-		height: 13vh;
+<style scoped>
+	.space2 {
+		height: 20vh;
 		/* 设置空间的高度 */
+	}
+
+	.space {
+		height: 0vh;
+		/* 设置空间的高度 */
+	}
+
+	.container {
+		display: grid;
+		grid-template-rows: auto 1fr auto;
+		/* 上中下三个部分分别占据内容的高度 */
+		height: 100vh;
+		/* 填满整个视口高度 */
 	}
 
 	.content {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
+		/* 垂直方向排列 */
 	}
 
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin-top: 200rpx;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 50rpx;
+	.topbar,
+	.bottombar {
+		/*background-color: #333;*/
+		/*color: #fff;*/
+		padding: 10px;
 	}
 
-	.text-area {
+	.topbar,
+	.bottombar {
 		display: flex;
-		justify-content: center;
-	}
-
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
+		justify-content: space-around;
+		align-items: center;
 	}
 </style>

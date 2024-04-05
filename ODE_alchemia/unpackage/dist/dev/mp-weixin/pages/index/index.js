@@ -19,23 +19,19 @@ const _sfc_main = {
   }
 };
 if (!Array) {
+  const _easycom_TopBar2 = common_vendor.resolveComponent("TopBar");
   const _easycom_Card2Nm2 = common_vendor.resolveComponent("Card2Nm");
-  const _easycom_Btn1Nm2 = common_vendor.resolveComponent("Btn1Nm");
-  (_easycom_Card2Nm2 + _easycom_Btn1Nm2)();
+  const _easycom_BtmBar2 = common_vendor.resolveComponent("BtmBar");
+  (_easycom_TopBar2 + _easycom_Card2Nm2 + _easycom_BtmBar2)();
 }
+const _easycom_TopBar = () => "../../components/TopBar/TopBar.js";
 const _easycom_Card2Nm = () => "../../components/Card2Nm/Card2Nm.js";
-const _easycom_Btn1Nm = () => "../../components/Btn1Nm/Btn1Nm.js";
+const _easycom_BtmBar = () => "../../components/BtmBar/BtmBar.js";
 if (!Math) {
-  (_easycom_Card2Nm + _easycom_Btn1Nm)();
+  (_easycom_TopBar + _easycom_Card2Nm + _easycom_BtmBar)();
 }
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
-  return {
-    a: common_vendor.p({
-      text: "Click me",
-      onClick: $options.handleButtonClick
-    }),
-    b: common_vendor.t($data.title)
-  };
+  return {};
 }
-const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "D:/UNIAPP_projects/ode_alchemia/ODE_alchemia/pages/index/index.vue"]]);
+const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-1cf27b2a"], ["__file", "D:/UNIAPP_projects/ode_alchemia/ODE_alchemia/pages/index/index.vue"]]);
 wx.createPage(MiniProgramPage);

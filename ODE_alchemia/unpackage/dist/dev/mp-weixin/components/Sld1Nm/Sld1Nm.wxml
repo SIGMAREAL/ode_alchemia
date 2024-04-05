@@ -1,0 +1,1 @@
+<label class="label data-v-2fd15748" bindtap="{{d}}"><view class="{{['toggle', 'data-v-2fd15748', c && 'checked']}}"><input class="toggle-state data-v-2fd15748" type="checkbox" name="check" value="{{a}}" bindinput="{{b}}"></input><view class="indicator data-v-2fd15748">滑动开始定制</view></view></label>

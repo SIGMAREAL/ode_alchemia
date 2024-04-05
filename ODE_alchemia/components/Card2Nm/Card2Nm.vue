@@ -1,7 +1,11 @@
 <template>
+	
 	<div class="card">
 			<text>ode</text>
+			<Btn1Nm text="今天的世界是什么气味" :onClick="handleButtonClick"></Btn1Nm>
+			<Sld1Nm></Sld1Nm>
 	</div>
+	
 </template>
 
 <script>
@@ -15,7 +19,11 @@
 	}
 </script>
 
-<style>
+<style scoped>
+	.image{
+		z-index: -1;
+	}
+	
 	.card {
 		width: 82vw;
 		height: 70vh;
