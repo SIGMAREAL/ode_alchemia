@@ -1,12 +1,16 @@
 <template>
 	<view class="content">
-		<CardBgd1Norm></CardBgd1Norm>
+		<div class="space"></div>
+		<CardBgd1Norm>	
+			<text>ode</text>
+		<Btn1Norm text="Click me" :onClick="handleButtonClick" />
+		</CardBgd1Norm>
 		<!--image class="logo" src="/static/logo.png"></image-->
 		<view class="text-area">
 			<text class="title">{{title}}</text>
 		</view>
 		<view>qq</view>
-		<Btn1Norm text="Click me" :onClick="handleButtonClick" />
+
 	</view>
 </template>
 
@@ -41,6 +45,10 @@ export default {
 </script>
 
 <style>
+	.space {
+	  height: 13vh; /* 设置空间的高度 */
+	}
+	
 	.content {
 		display: flex;
 		flex-direction: column;

@@ -1,1 +1,1 @@
-<view class="content"><card-bgd1-norm u-i="5083edd8-0" bind:__l="__l"></card-bgd1-norm><view class="text-area"><text class="title">{{a}}</text></view><view>qq</view><btn1-norm wx:if="{{b}}" u-i="5083edd8-1" bind:__l="__l" u-p="{{b}}"/></view>
+<view class="content"><view class="space"></view><card-bgd1-norm u-s="{{['d']}}" u-i="5083edd8-0" bind:__l="__l"><text>ode</text><btn1-norm wx:if="{{a}}" u-i="5083edd8-1,5083edd8-0" bind:__l="__l" u-p="{{a}}"/></card-bgd1-norm><view class="text-area"><text class="title">{{b}}</text></view><view>qq</view></view>

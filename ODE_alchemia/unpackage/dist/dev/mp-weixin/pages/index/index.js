@@ -26,17 +26,17 @@ const _sfc_main = {
   }
 };
 if (!Array) {
-  const _component_CardBgd1Norm = common_vendor.resolveComponent("CardBgd1Norm");
   const _component_Btn1Norm = common_vendor.resolveComponent("Btn1Norm");
-  (_component_CardBgd1Norm + _component_Btn1Norm)();
+  const _component_CardBgd1Norm = common_vendor.resolveComponent("CardBgd1Norm");
+  (_component_Btn1Norm + _component_CardBgd1Norm)();
 }
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return {
-    a: common_vendor.t($data.title),
-    b: common_vendor.p({
+    a: common_vendor.p({
       text: "Click me",
       onClick: $options.handleButtonClick
-    })
+    }),
+    b: common_vendor.t($data.title)
   };
 }
 const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "D:/UNIAPP_projects/ode_alchemia/ODE_alchemia/pages/index/index.vue"]]);
