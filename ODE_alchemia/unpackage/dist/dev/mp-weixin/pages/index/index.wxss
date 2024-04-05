@@ -1,18 +1,14 @@
 
-.space2.data-v-1cf27b2a {
-		height: 20vh;
-		/* 设置空间的高度 */
-}
-.space.data-v-1cf27b2a {
-		height: 0vh;
-		/* 设置空间的高度 */
-}
 .container.data-v-1cf27b2a {
 		display: grid;
 		grid-template-rows: auto 1fr auto;
 		/* 上中下三个部分分别占据内容的高度 */
 		height: 100vh;
 		/* 填满整个视口高度 */
+		background-size: cover;
+		/* 让背景图片充满容器 */
+		background-position: center;
+		/* 居中背景图片 */
 }
 .content.data-v-1cf27b2a {
 		display: flex;

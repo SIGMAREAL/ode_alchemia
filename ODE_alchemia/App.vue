@@ -1,6 +1,10 @@
 <script>
 	export default {
-		onLaunch() {
+		onLaunch:function() {
+			wx.cloud.init({
+				env:'cloud1-6gvwori2b7946e02',
+				traceUser: true,
+			})
 		    // 设置页面的初始配置
 		    //uni.setNavigationBarStyle({
 		      //navigationStyle: 'custom'

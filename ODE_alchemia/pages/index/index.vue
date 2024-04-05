@@ -2,7 +2,7 @@
 
 
 
-	<div class="container">
+	<div class="container" style="background-image: url('../../static/1.svg');">
 
 		<header class="topbar">
 			<TopBar></TopBar>
@@ -43,22 +43,16 @@
 </script>
 
 <style scoped>
-	.space2 {
-		height: 20vh;
-		/* 设置空间的高度 */
-	}
-
-	.space {
-		height: 0vh;
-		/* 设置空间的高度 */
-	}
-
 	.container {
 		display: grid;
 		grid-template-rows: auto 1fr auto;
 		/* 上中下三个部分分别占据内容的高度 */
 		height: 100vh;
 		/* 填满整个视口高度 */
+		background-size: cover;
+		/* 让背景图片充满容器 */
+		background-position: center;
+		/* 居中背景图片 */
 	}
 
 	.content {

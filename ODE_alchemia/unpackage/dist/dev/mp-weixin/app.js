@@ -5,7 +5,11 @@ if (!Math) {
   "./pages/index/index.js";
 }
 const _sfc_main = {
-  onLaunch() {
+  onLaunch: function() {
+    common_vendor.wx$1.cloud.init({
+      env: "cloud1-6gvwori2b7946e02",
+      traceUser: true
+    });
     console.log("App Launch");
   },
   onShow: function() {

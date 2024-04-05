@@ -5,9 +5,9 @@
 			<view class="flex-item" style="height: 5vh;">
 				<text class="toptext">ODE ALCHEMIA</text>
 			</view>
-			<view class="flex-item" style="height: 100vh;">
-				<div class="space"></div>
-				<Btn1Nm text="今天的世界是什么气味" :onClick="handleButtonClick"></Btn1Nm>
+			<view class="flex-item" style="height: 30vh;">
+				<!--Btn1Nm text="今天的世界是什么气味" :onClick="handleButtonClick"></Btn1Nm-->
+				<image src="cloud://cloud1-6gvwori2b7946e02.636c-cloud1-6gvwori2b7946e02-1324839850/assets/微信图片_20240325224744.png"></image>
 				<div class="space"></div>
 			</view>
 			<view class="flex-item" style="height: 10vh;">
@@ -36,12 +36,13 @@
 
 <style scoped>
 	.space {
-		height: 10vh;
+		height: 5vh;
 		/* 设置空间的高度 */
 	}
 
 	.image {
-		z-index: -1;
+	
+		margin-right: 2vw;
 	}
 
 	.card {

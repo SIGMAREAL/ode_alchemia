@@ -1,7 +1,6 @@
 {
   "component": true,
   "usingComponents": {
-    "btn1-nm": "../Btn1Nm/Btn1Nm",
     "sld1-nm": "../Sld1Nm/Sld1Nm"
   }
 }
