@@ -1,13 +1,14 @@
 "use strict";
 const common_vendor = require("../../common/vendor.js");
 const Btn1Norm = () => "../../components/button/Btn1Norm.js";
+const CardBgd1Norm = () => "../../components/card/CardBgd/CardBgd1Norm.js";
 const _sfc_main = {
   data() {
     return {
       title: "Hello"
     };
   },
-  onLoad() {
+  mounted() {
   },
   methods: {
     // 点击事件处理函数
@@ -19,13 +20,15 @@ const _sfc_main = {
     }
   },
   components: {
-    Btn1Norm
+    Btn1Norm,
     // 注册 Btn1Norm 组件
+    CardBgd1Norm
   }
 };
 if (!Array) {
+  const _component_CardBgd1Norm = common_vendor.resolveComponent("CardBgd1Norm");
   const _component_Btn1Norm = common_vendor.resolveComponent("Btn1Norm");
-  _component_Btn1Norm();
+  (_component_CardBgd1Norm + _component_Btn1Norm)();
 }
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return {

@@ -5,7 +5,7 @@ if (!Math) {
   "./pages/index/index.js";
 }
 const _sfc_main = {
-  onLaunch: function() {
+  onLaunch() {
     console.log("App Launch");
   },
   onShow: function() {

@@ -1,6 +1,7 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
+		<CardBgd1Norm></CardBgd1Norm>
+		<!--image class="logo" src="/static/logo.png"></image-->
 		<view class="text-area">
 			<text class="title">{{title}}</text>
 		</view>
@@ -11,15 +12,16 @@
 
 <script>
 // 导入 Btn1Norm 组件
-import Btn1Norm from '@/components/button/Btn1Norm.vue'; // 请根据你的实际路径修改
+import Btn1Norm from '@/components/button/Btn1Norm.vue'; // 请根据实际路径修改
+import CardBgd1Norm from '@/components/card/CardBgd/CardBgd1Norm.vue';
 
 export default {
   data() {
     return {
       title: 'Hello'
-    }
+    };
   },
-  onLoad() {
+  mounted() {
     // 在页面加载时执行的逻辑
   },
   methods: {
@@ -32,9 +34,10 @@ export default {
     }
   },
   components: {
-    Btn1Norm // 注册 Btn1Norm 组件
+    Btn1Norm, // 注册 Btn1Norm 组件
+    CardBgd1Norm
   }
-}
+};
 </script>
 
 <style>

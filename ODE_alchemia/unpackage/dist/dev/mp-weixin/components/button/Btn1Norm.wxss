@@ -1,8 +1,9 @@
 
 /* 可选的样式 */
 .button-text.data-v-c22a473c {
-  color: #fff;
+  /*color: #fff;*/
   font-size: 16px;
+  position: absolute;
 }
 .button.data-v-c22a473c {
   width: 60vw;
