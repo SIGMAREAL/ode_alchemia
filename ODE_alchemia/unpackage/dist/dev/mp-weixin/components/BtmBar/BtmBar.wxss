@@ -1,67 +1,71 @@
 
 .radiogroup.data-v-303d207a {
-  padding: 48px 64px;
-  border-radius: 16px;
-  background: #ecf0f3;
-  box-shadow: 4px 4px 4px 0px #d1d9e6 inset, -4px -4px 4px 0px #ffffff inset;
+	  display: flex;
+	  padding: 2.5vh 5vw;
+	  border-radius: 16px;
+	  background: #ecf0f3;
+	  box-shadow: 4px 4px 4px 0px #d1d9e6 inset, -4px -4px 4px 0px #ffffff inset;
 }
 .wrapper.data-v-303d207a {
-  margin: 8px 0;
+	  margin: 8px 0;
+	  margin-right: 20rpx;
 }
 .state.data-v-303d207a {
-  position: absolute;
-  top: 0;
-  right: 0;
-  opacity: 1e-5;
-  pointer-events: none;
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  opacity: 1e-5;
+	  pointer-events: none;
 }
 .label.data-v-303d207a {
-  display: inline-flex;
-  align-items: center;
-  cursor: pointer;
-  color: #394a56;
+	  display: inline-flex;
+	  align-items: center;
+	  cursor: pointer;
+	  color: #394a56;
 }
 .text.data-v-303d207a {
-  margin-left: 16px;
-  opacity: 0.6;
-  transition: opacity 0.2s linear, transform 0.2s ease-out;
+	  margin-left: 8px;
+	  opacity: 0.6;
+	  transition: opacity 0.2s linear, transform 0.2s ease-out;
 }
 .indicator.data-v-303d207a {
-  position: relative;
-  border-radius: 50%;
-  height: 30px;
-  width: 30px;
-  box-shadow: -8px -4px 8px 0px #ffffff, 8px 4px 12px 0px #d1d9e6;
-  overflow: hidden;
+	  position: relative;
+	  border-radius: 50%;
+	  height: 50px;
+	  width: 50px;
+	  box-shadow: -8px -4px 8px 0px #ffffff, 8px 4px 12px 0px #d1d9e6;
+	  overflow: hidden;
 }
 .indicator.data-v-303d207a::before,
-.indicator.data-v-303d207a::after {
-  content: "";
-  position: absolute;
-  top: 10%;
-  left: 10%;
-  height: 80%;
-  width: 80%;
-  border-radius: 50%;
+	.indicator.data-v-303d207a::after {
+	  content: "";
+	  position: absolute;
+	  top: 10%;
+	  left: 10%;
+	  height: 80%;
+	  width: 80%;
+	  border-radius: 50%;
 }
 .indicator.data-v-303d207a::before {
-  box-shadow: -4px -2px 4px 0px #d1d9e6, 4px 2px 8px 0px #fff;
+	  box-shadow: -4px -2px 4px 0px #d1d9e6, 4px 2px 8px 0px #fff;
 }
 .indicator.data-v-303d207a::after {
-  background-color: #ecf0f3;
-  box-shadow: -4px -2px 4px 0px #fff, 4px 2px 8px 0px #d1d9e6;
-  transform: scale3d(1, 1, 1);
-  transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out;
+	  background-color: #ecf0f3;
+	  box-shadow: -4px -2px 4px 0px #fff, 4px 2px 8px 0px #d1d9e6;
+	  transform: scale3d(1, 1, 1);
+	  transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out;
 }
-.state:checked ~ .label .indicator.data-v-303d207a::after {
-  transform: scale3d(0.975, 0.975, 1) translate3d(0, 10%, 0);
-  opacity: 0;
+	
+	/* 使用相邻兄弟选择器 + 来选择下一个相邻的兄弟元素 */
+.state:checked + .label .indicator.data-v-303d207a::after {
+	  transform: scale3d(0.975, 0.975, 1) translate3d(0, 10%, 0);
+	  opacity: 0;
 }
-.state:focus ~ .label .text.data-v-303d207a {
-  transform: translate3d(8px, 0, 0);
-  opacity: 1;
+.state:focus + .label .text.data-v-303d207a {
+	  transform: translate3d(8px, 0, 0);
+	  opacity: 1;
 }
 .label:hover .text.data-v-303d207a {
-  opacity: 1;
+	  opacity: 1;
 }
 

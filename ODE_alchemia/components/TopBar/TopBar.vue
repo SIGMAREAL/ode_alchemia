@@ -1,5 +1,7 @@
 <template>
+	
 	<div class="radio-inputs">
+		<TopAvatar></TopAvatar>
 		<label class="radio">
 			<input type="radio" name="radio" checked="">
 			<span class="name">订制</span>

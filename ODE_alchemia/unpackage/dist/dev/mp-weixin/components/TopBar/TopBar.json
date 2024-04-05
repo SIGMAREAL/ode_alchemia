@@ -1,4 +1,6 @@
 {
   "component": true,
-  "usingComponents": {}
+  "usingComponents": {
+    "top-avatar": "../TopAvatar/TopAvatar"
+  }
 }

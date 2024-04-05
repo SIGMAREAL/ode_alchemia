@@ -6,6 +6,14 @@ const _sfc_main = {
     return {};
   }
 };
+if (!Array) {
+  const _easycom_TopAvatar2 = common_vendor.resolveComponent("TopAvatar");
+  _easycom_TopAvatar2();
+}
+const _easycom_TopAvatar = () => "../TopAvatar/TopAvatar.js";
+if (!Math) {
+  _easycom_TopAvatar();
+}
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return {};
 }

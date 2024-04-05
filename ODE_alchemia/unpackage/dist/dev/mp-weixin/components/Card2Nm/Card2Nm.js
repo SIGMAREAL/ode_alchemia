@@ -19,7 +19,15 @@ if (!Math) {
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return {
     a: common_vendor.p({
+      text: "ode",
+      onClick: _ctx.handleButtonClick
+    }),
+    b: common_vendor.p({
       text: "今天的世界是什么气味",
+      onClick: _ctx.handleButtonClick
+    }),
+    c: common_vendor.p({
+      text: "ode",
       onClick: _ctx.handleButtonClick
     })
   };

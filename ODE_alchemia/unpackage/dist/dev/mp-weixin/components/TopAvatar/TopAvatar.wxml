@@ -1,0 +1,1 @@
+<view><view class="card"><view class="profileImage"><image src="/static/logo.png"></image></view><view class="textContainer"><view class="name">Pepper Potts</view><view class="profile">Profile</view></view></view></view>

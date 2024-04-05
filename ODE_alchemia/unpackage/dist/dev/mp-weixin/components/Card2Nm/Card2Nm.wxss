@@ -1,4 +1,7 @@
 
+.space.data-v-882ca6e2{
+		height: 5vh; /* 设置空间的高度 */
+}
 .image.data-v-882ca6e2{
 		z-index: -1;
 }
