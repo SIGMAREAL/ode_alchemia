@@ -1,6 +1,7 @@
 
 .space {
-	  height: 13vh; /* 设置空间的高度 */
+		height: 13vh;
+		/* 设置空间的高度 */
 }
 .content {
 		display: flex;

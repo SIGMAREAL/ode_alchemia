@@ -1,5 +1,22 @@
+<template>
+	<div class="card">
+			<text>ode</text>
+	</div>
+</template>
 
-.card {
+<script>
+	export default {
+		name:"Card2Nm",
+		data() {
+			return {
+				
+			};
+		}
+	}
+</script>
+
+<style>
+	.card {
 		width: 82vw;
 		height: 70vh;
 		border-radius: 30px;
@@ -12,4 +29,5 @@
 		background-color: rgba(255, 255, 255, 0.074);
 		border: 1px solid rgba(255, 255, 255, 0.222);
 		z-index: -2;
-}
+	}
+</style>

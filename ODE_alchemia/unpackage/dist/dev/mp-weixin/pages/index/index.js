@@ -1,7 +1,5 @@
 "use strict";
 const common_vendor = require("../../common/vendor.js");
-const Btn1Norm = () => "../../components/button/Btn1Norm.js";
-const CardBgd1Norm = () => "../../components/card/CardBgd/CardBgd1Norm.js";
 const _sfc_main = {
   data() {
     return {
@@ -18,17 +16,17 @@ const _sfc_main = {
         icon: "none"
       });
     }
-  },
-  components: {
-    Btn1Norm,
-    // 注册 Btn1Norm 组件
-    CardBgd1Norm
   }
 };
 if (!Array) {
-  const _component_Btn1Norm = common_vendor.resolveComponent("Btn1Norm");
-  const _component_CardBgd1Norm = common_vendor.resolveComponent("CardBgd1Norm");
-  (_component_Btn1Norm + _component_CardBgd1Norm)();
+  const _easycom_Card2Nm2 = common_vendor.resolveComponent("Card2Nm");
+  const _easycom_Btn1Nm2 = common_vendor.resolveComponent("Btn1Nm");
+  (_easycom_Card2Nm2 + _easycom_Btn1Nm2)();
+}
+const _easycom_Card2Nm = () => "../../components/Card2Nm/Card2Nm.js";
+const _easycom_Btn1Nm = () => "../../components/Btn1Nm/Btn1Nm.js";
+if (!Math) {
+  (_easycom_Card2Nm + _easycom_Btn1Nm)();
 }
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return {

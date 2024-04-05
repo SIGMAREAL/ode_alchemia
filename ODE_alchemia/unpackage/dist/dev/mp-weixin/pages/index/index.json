@@ -1,7 +1,7 @@
 {
   "navigationBarTitleText": "uni-app",
   "usingComponents": {
-    "btn1-norm": "../../components/button/Btn1Norm",
-    "card-bgd1-norm": "../../components/card/CardBgd/CardBgd1Norm"
+    "card2-nm": "../../components/Card2Nm/Card2Nm",
+    "btn1-nm": "../../components/Btn1Nm/Btn1Nm"
   }
 }
